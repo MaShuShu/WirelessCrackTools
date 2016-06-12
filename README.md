@@ -1,6 +1,18 @@
-# Introduction
-## WirelessCrackTools for Android
-This repository is a Tools include aircrack-ng,reaver,pixiewps,iw and etc for Android.
+WirelessCrackCommandlineTools for Android(armv7+bcm4329/4330)
+
+此目录下的zip文件为无线破解命令行工具卡刷包，以md5为后缀名的文件为这些文件的md5值比对表
+
+安装:通过第三方recovery卡刷安装WirelessCrackTools-Installer.zip
+
+卸载:通过第三方recovery卡刷安装WirelessCrackTools-Uninstaller.zip
+
+该工具包中(WirelessCrackTools-Installer.zip)包含aircrack-ng,reaver,wash,pixiewps,iw等31个用于无线破解的命令行工具
+安装成功后，再重启回到系统自行下载并安装termux(5.0+)之类的终端软件，至此可以开始使用这些命令行工具了
+
+注意：若手机的网卡芯片不是bcm4329或bcm4330型号的，那么抓包的操作将不被支持，但跑包操作可以用aircrack-ng这个命令
+安装该工具包的手机务必拥有root权限，安卓系统版本务必高于4.0，尽可能选用网卡芯片符合以上要求的手机，如:魅族2，Nexus 7等！
+
+该工具包中的可执行程序是由kriswebdev提供的源码编译而来
 
 ## Aircrack-ng
 > Aircrack-ng is an 802.11 WEP and WPA-PSK keys cracking program that can recover keys once enough data packets have been captured. It implements the standard FMS attack along with some optimizations like KoreK attacks, as well as the PTW attack, thus making the attack much faster compared to other WEP cracking tools.
