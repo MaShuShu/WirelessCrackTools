@@ -1,4 +1,4 @@
-WirelessCrackCommandlineTools for Android(armv7+bcm4329/4330)
+WirelessCrackCommandlineTools for Android(arm+bcm4329/4330)
 
 此目录下的zip文件为无线破解命令行工具卡刷包，以md5为后缀名的文件为这些文件的md5值比对表
 
