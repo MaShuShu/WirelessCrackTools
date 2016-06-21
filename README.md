@@ -6,7 +6,7 @@ WirelessCrackCommandlineTools for Android(arm+bcm4329/4330)
 
 卸载:通过第三方recovery卡刷安装WirelessCrackTools-Uninstaller.zip
 
-该工具包中(WirelessCrackTools-Installer.zip)包含aircrack-ng,reaver,wash,pixiewps,iw等31个用于无线破解的命令行工具
+该工具包中(WirelessCrackTools-Installer.zip)包含aircrack-ng,reaver,wash,pixiewps,iw,macchanger等32个用于无线破解的命令行工具
 安装成功后，再重启回到系统自行下载并安装termux(5.0+)之类的终端软件，至此可以开始使用这些命令行工具了
 
 注意：若手机的网卡芯片不是bcm4329或bcm4330型号的，那么抓包的操作将不被支持，但跑包操作可以用aircrack-ng这个命令
